@@ -71,3 +71,32 @@ détaille le contenu des différents fichiers et les librairies
 - Il est préférable que le code Python soit écrit en Anglais.
 Les commentaires et l'analyse des résultats dans les notebooks
 devront être en Français.
+................................................................................................................................
+
+*Suite du readme.md rédigé par agougoua (Alban GOUGOUA)*
+
+# Contenu du repository
+
+- Fichier 'data.db' est une base de données fournie par les évaluateurs 
+contenant 2 tables utilisées pour mon travail.
+
+- Fichier 'getting_started.py' contient un bout de code permettant 
+la lecture des tables contenues dans le fichier 'data.db'. Ce fichier 
+a été fourni par les évaluateurs.
+
+- Fichier 'inria-aphp-assignment.ipynb' est le notebook contenant mon 
+travail.
+
+- Fichier 'readme.md' est le fichier de description du travail demandé. 
+Il a été fourni par les évaluateurs et complété par moi-même.
+
+
+# Installer les librairies Python
+
+Pour exécuter le notebook 'inria-aphp-assignment.ipynb', on a besoin d'installer les librairies suivantes :
+
+- Pour analyser les données : **pandas**, **sqlalchemy**, **numpy**, **re** et **datetime** ;
+
+- Pour visualiser les données : **matplotlib** et **seaborn** ;
+
+- Pour tester la fonction de détection des doublons : **pytest**.
