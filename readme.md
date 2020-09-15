@@ -100,3 +100,12 @@ Pour exécuter le notebook 'inria-aphp-assignment.ipynb', on a besoin d'installe
 - Pour visualiser les données : **matplotlib** et **seaborn** ;
 
 - Pour tester la fonction de détection des doublons : **pytest**.
+
+```shell
+# Install all libraries
+$ conda install -c anaconda pandas, sqlalchemy, numpy, regex, matplotlib, seaborn, pytest
+...
+$ conda install -c trentonoliphant datetime
+```
+
+***NB : pour la plupart des environnements anaconda, ces librairies sont déjà installées.***
